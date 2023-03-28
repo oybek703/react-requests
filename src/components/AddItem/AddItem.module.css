@@ -1,0 +1,12 @@
+.addFiles {
+    text-align: center;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: var(--dark-gray);
+}

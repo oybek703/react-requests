@@ -1,0 +1,23 @@
+.degree {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--purple);
+    border-radius: 4px;
+    padding: 6px 8px;
+    outline: none;
+    border: none;
+    margin-right: 0;
+    background-color: rgba(33, 10, 98, 0.1);
+}
+
+.blue {
+    color: var(--blue);
+    background-color: rgba(0, 49, 42, 0.1);
+}
+
+.red {
+    color: var(--red);
+    background-color: rgba(243, 59, 92, 0.1);
+}

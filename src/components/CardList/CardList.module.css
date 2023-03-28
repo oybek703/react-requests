@@ -1,0 +1,25 @@
+.cardList {
+    margin-top: 21px;
+    background-color: transparent;
+    min-width: 310px;
+}
+
+.cards {
+    border: 1px solid #C9D2CE;
+    border-radius: 0 0 4px 4px;
+    border-top: 0;
+    display: grid;
+    row-gap: 12px;
+    padding: 12px 9px;
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.cardTitle {
+    background-color: var(--light-blue);
+    display: flex;
+    align-items: center;
+    padding-left: 9px;
+    border-radius: 4px 4px 0 0;
+    position: sticky;
+}

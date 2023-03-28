@@ -1,0 +1,8 @@
+.header {
+	width: 100%;
+	min-height: 44px;
+	background-color: var(--green);
+	position: fixed;
+	top: 0;
+}
+

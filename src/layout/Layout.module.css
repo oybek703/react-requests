@@ -1,0 +1,26 @@
+.wrapper {
+    display: grid;
+
+    min-height: 100vh;
+    grid-template:
+		"header header"
+		"sidebar body";
+    grid-template-rows: 44px minmax(100px, calc(100vh - 44px));
+    grid-template-columns:  200px minmax(320px, 1fr);
+}
+
+.header {
+    grid-area: header;
+}
+
+.body {
+    grid-area: body;
+    padding: 20px 32px;
+    outline: none;
+    overflow: auto;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+

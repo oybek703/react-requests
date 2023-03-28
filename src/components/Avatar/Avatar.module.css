@@ -1,0 +1,32 @@
+.avatar {
+    margin-top: 13px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 28px auto;
+    column-gap: 8px;
+}
+
+.info {
+
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.jobTitle {
+    margin-bottom: 2px;
+    color: #969F9B;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.name {
+    color: #414644;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 14px;
+}
